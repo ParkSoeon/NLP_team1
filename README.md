@@ -20,14 +20,30 @@
 **법률 데이터: easylaw_kr**
 
 ## 💻3. 모델 학습
-**LLM**
 **Fine-tuning**
+-  
+
 **RAG**
+- csvloader활용하여 csv 파일 로드
+- RecursiveCharacterTextSplitter 활용하여 텍스트 분할
+- 텍스트 정수 벡터로 임베딩- 허깅페이스임베딩 모델 : jhgan/ko-sbert-nli
+- FAISS (VECTORDB)에 임베딩 된 데이터 저장
+- 유사도 기반 검색(RETRIEVER)
+
+
+**prompt-engineering**
+- AI 프롬프트 26가지 지침 (https://arxiv.org/abs/2312.16171) 참고
+- 독자 특성 명시 + 특정 역할 부여
+- few-shot
+- 구조화 + 구분 기호 사용
+- 자연스러운 답변 요구 : 대화체 유도
+
 
 ## 📈4. 주요 성과
 
 
 ## 🔍5. 향후 계획
+- RAG에 초점을 맞춘 
 
 
 ## 🧹6. 참조
