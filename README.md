@@ -27,7 +27,7 @@
 **RAG**
 - csvloader활용하여 csv 파일 로드
 - RecursiveCharacterTextSplitter 활용하여 텍스트 분할
-- 텍스트 정수 벡터로 임베딩- 허깅페이스임베딩 모델 : jhgan/ko-sbert-nli
+- 텍스트 정수 벡터로 임베딩- 허깅페이스임베딩 모델 : sentence-transformers/LaBSE
 - FAISS (VECTORDB)에 임베딩 된 데이터 저장
 - 유사도 기반 검색(RETRIEVER)
 
