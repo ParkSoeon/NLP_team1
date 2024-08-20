@@ -41,7 +41,9 @@
 
 
 ## 📈4. 주요 성과
-
+<p align="center">
+  <img width="568" alt="KakaoTalk_20240821_044456966" src="https://github.com/user-attachments/assets/0f6332a5-eb67-4734-8b47-d174c5f87cb1">
+</p>
 
 ## 🔍5. 향후 계획
 - 자원 부족으로 인한 FINE-TUNING의 한계로 인해 RAG와 PROMPT-ENGINEERING에 비중을 둔 프로젝트
